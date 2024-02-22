@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
@@ -41,7 +39,7 @@ function App() {
   return (
     <div className="stopwatch">
       <h1 className="stopwatch-title">Stopwatch</h1>
-      <div className="stopwatch-time">{formatTime(time)}</div>
+      <div className="stopwatch-time">Time: {formatTime(time)}</div>
       <div className="stopwatch-controls">
         {isRunning ? (
           <button className="stopwatch-button" onClick={stopStopwatch}>
