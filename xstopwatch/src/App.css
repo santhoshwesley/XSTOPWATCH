@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.stopwatch {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.stopwatch-title {
+  font-size: 24px;
+}
+
+.stopwatch-time {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.stopwatch-controls {
+  margin-top: 20px;
+}
+
+.stopwatch-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
